@@ -1,5 +1,5 @@
 from data_loader import process_data_file
-from setup import download_package
+import setup
 
-download_package.download_all()
+setup.init()
 # process_data_file('ko-en_sentences.txt')

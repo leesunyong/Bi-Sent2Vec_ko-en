@@ -1,1 +1,5 @@
-__all__ = ['download_package']
+__all__ = ['']
+
+
+def init():
+    print("ddd")
