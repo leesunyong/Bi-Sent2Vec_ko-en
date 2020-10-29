@@ -1,0 +1,10 @@
+click==7.1.2
+cmake==3.18.2.post1
+et-xmlfile==1.0.1
+jdcal==1.4.1
+joblib==0.17.0
+khaiii==0.4
+nltk==3.5
+numpy==1.19.3
+regex==2020.10.28
+tqdm==4.51.0
