@@ -1,7 +1,3 @@
-# from khaiii import KhaiiiApi
-#
-# api = KhaiiiApi()
-# sentence = "곰 세마리가 한 집에 있어."
-#
-# for word in api.analyze(sentence):
-#     print(word)
+from data_loader import process_data_file
+
+process_data_file('ko-en_sentences.txt')

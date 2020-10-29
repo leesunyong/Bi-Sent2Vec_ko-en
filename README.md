@@ -52,3 +52,13 @@ Result
     한	한/MM
     집에	집/NNG + 에/JKB
     있어.	있/VV + 어/EF + ./SF
+
+### nltk
+Download nltk 'punkt': http://www.nltk.org/nltk_data/ <br>
+Extract punkt.zip and move it to:
+    
+    /usr/local/share/nltk_data/tokenizers
+Download nltk 'averaged_perceptron_tagger': http://www.nltk.org/nltk_data/ <br>
+Extract averaged_perceptron_tagger.zip and move it to:
+    
+    /usr/local/share/nltk_data/taggers
