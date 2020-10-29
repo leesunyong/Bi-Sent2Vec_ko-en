@@ -1,4 +1,7 @@
 # Bi-Sent2Vec_ko-en
+## Run
+
+    python main.py
 
 ## Setting
 
