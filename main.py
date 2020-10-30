@@ -1,5 +1,11 @@
-from data_loader import process_data_file
-import setup
+import argparse
+from data_process import process_data_file
 
-setup.init()
-# process_data_file('ko-en_sentences.txt')
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Bi Sentence to Vector')
+    parser.add_argument('input', type=str,
+                        help='data file for embedding words')
+
+    args = parser.parse_args()
+
+    process_data_file(args.input, 'ko', 'en')

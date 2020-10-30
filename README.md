@@ -1,11 +1,9 @@
 # Bi-Sent2Vec_ko-en
-## Run
-
-    python main.py
-
 ## Setting
+Set up virtual environment
 
     pip install -r requirements.txt
+
 ### Khaiii
 Download khaiii
 
@@ -38,24 +36,6 @@ Python binding
     cd package_python
     pip install .
 
-<hr>
-Khaiii Usage
-    
-    from Kahiii import KhaiiiApi
-    
-    api = KhaiiiApi()
-    sentence = "곰 세마리가 한 집에 있어."
-    for word in api.analyze(sentence)
-        print(word)
-        
-Result
-    
-    곰	곰/NNG
-    세마리가	세마리/NNG + 가/JKS
-    한	한/MM
-    집에	집/NNG + 에/JKB
-    있어.	있/VV + 어/EF + ./SF
-
 ### nltk
 Download nltk 'punkt': http://www.nltk.org/nltk_data/ <br>
 Extract punkt.zip and move it to:
@@ -65,3 +45,12 @@ Download nltk 'averaged_perceptron_tagger': http://www.nltk.org/nltk_data/ <br>
 Extract averaged_perceptron_tagger.zip and move it to:
     
     /usr/local/share/nltk_data/taggers
+    
+##Implementation
+
+    python main.py [file name]
+    
+example
+    
+    python main.py ko-en_sentences.txt 
+    
