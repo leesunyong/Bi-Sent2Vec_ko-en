@@ -46,7 +46,7 @@ Extract averaged_perceptron_tagger.zip and move it to:
     
     /usr/local/share/nltk_data/taggers
     
-##Implementation
+## Implementation
 
     python main.py [file name]
     

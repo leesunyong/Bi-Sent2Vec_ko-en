@@ -49,6 +49,6 @@ SW  Symbol                      기타 기호(논리, 수학 기호, 화폐 기�
 SWK Character                   한글 자소
 SN  Numeral                     숫자
 
-ZN  Guessed Noun                분석 불능(명사 추정)'),
-ZV  Guessed Possessive          분석 불능(용언 추정)'),
-ZZ  Unknown                     분석 불능(기타)'),
+ZN  Guessed Noun                분석 불능(명사 추정)
+ZV  Guessed Possessive          분석 불능(용언 추정)
+ZZ  Unknown                     분석 불능(기타)

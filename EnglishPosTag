@@ -1,0 +1,54 @@
+NN      Noun, Common, Singular or mass
+NNP     Noun, Proper, Singular
+NNS     Noun, Common, Plural
+NNPS    Noun, Proper, Plural
+PRP     Pronoun, Personal
+PRP$    Pronoun, Possessive
+
+DT      Determiner
+PDT     Pre-determiner
+POS     Genitive Marker
+RP      Particle
+
+CC      conjunction, coordinating
+CD      numeral, cardinal
+
+VB      Verb, Base Form
+VBP     Verb, Present Tense, Not 3rd Person Singular
+VBZ     Verb, Present Tense, 3rd Person Singular
+VBD     Verb, Past Tense
+VBG     Verb, Present Particle or Gerund
+VBN     Verb, Past Particle
+
+MD      Modal Auxiliary
+
+IN      Preposition or Conjunction, Subordinating
+TO      To as preposition or infinitive marker
+
+JJ      Adjective or Numeral, Ordinal
+JJR     Adjective, Comparative
+JJS     Adjective, Superlative
+RB      Adverb
+RBR     Adverb, Comparative
+RBS     Adverb, Superlative
+
+EX      Existential There
+WDT     WH-determiner
+WP      WH-pronoun
+WP$     WH-pronoun, possessive
+WRB     Wh-adverb
+
+UH      Interjection
+
+$       Dollar
+``      Opening Quotation Mark
+''      Closing Quotation Mark
+(       Opening Parenthesis
+)       Closing Parenthesis
+,       Comma
+--      Dash
+.       Sentence Terminator
+:       Colon or Ellipsis
+LS      list item marker
+SYM     Symbol
+FW      Foreign Word
