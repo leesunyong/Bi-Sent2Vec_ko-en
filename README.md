@@ -54,3 +54,6 @@ example
     
     python main.py ko-en_sentences.txt 
     
+    
+    
+### Gensim Installation Error
