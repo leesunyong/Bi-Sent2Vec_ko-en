@@ -1,11 +1,54 @@
-NNG General Noun        일반 명사
-NNP Proper Noun         고유 명사
-NNB Bound Noun          의존 명사
-NP  Pronoun             대명사
-NR  Number              수사
+NNG General Noun                일반 명사
+NNP Proper Noun                 고유 명사
+NNB Bound Noun                  의존 명사
+NP  Pronoun                     대명사
+NR  Number                      수사
 
-VV  Verb                동사
-VA  Descriptive Verb    형용사
-VX  Auxiliary Verb      보조 용언
-VCP Copula              긍정 지정사
-VCN Negative Copula     부정 지정사
+VV  Verb                        동사
+VA  Descriptive Verb            형용사
+VX  Auxiliary Verb              보조 용언
+VCP Copula                      긍정 지정사
+VCN Negative Copula             부정 지정사
+
+MM  Determiner                  관형사
+MAG Adverb                      일반 부사
+MAJ Connecting Adverb           접속 부사
+
+IC  Interjection                감탄사
+
+JKS Subject Particle            주격 조사
+JKC Complement Particle         보격 조사
+JKG Possessive Particle         관형격 조사
+JKO Object Particle             목적격 조사
+JKB Adverbial Particle          부사격 조사
+JKV Vocative Case Particle      호격 조사
+JKQ Quote Particle              인용격 조사
+JX  Auxiliary Particle          보조사
+JC  Connecting Particle         보조사
+
+EP  Suffix-head                 선어말 어미
+EF  Predicate-ending Suffix     종결 어미
+EC  Connecting Suffix           연결 어미
+ETN Nominalizing Suffix         명사형 전성 어미
+ETM Adjective-forming Suffix    관형형 전성 어미
+
+XPN Substantive Prefix          체언 접두사
+XSN Noun-modifying Suffix       명사 파생 접미사
+XSV Verb-forming Suffix         동사 파생 접미사
+XSA Adjective-forming Suffix    형용사 파생 접미사
+XR  Noun Root                   어근
+
+SF  Punctuation                 마침표, 물음표, 느낌표
+SP  Punctuation                 쉼표, 가운뎃점, 콜론, 빗금
+SS  Punctuation                 따옴표, 괄호표, 줄표
+SE  Punctuation                 줄임표
+SO  Punctuation                 붙임표(물결, 숨김, 빠짐)
+SL  Foreign                     외국어
+SH  Chinese                     한자
+SW  Symbol                      기타 기호(논리, 수학 기호, 화폐 기호 등)
+SWK Character                   한글 자소
+SN  Numeral                     숫자
+
+ZN  Guessed Noun                분석 불능(명사 추정)'),
+ZV  Guessed Possessive          분석 불능(용언 추정)'),
+ZZ  Unknown                     분석 불능(기타)'),
