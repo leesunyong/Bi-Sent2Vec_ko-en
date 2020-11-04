@@ -4,8 +4,5 @@ env
 Bi-Sent2Vec
 khaiii
 
-ko-en.txt
-ko-en_sentences.txt
-
-result/*.bin
-result/*.vec
+data/*
+result/*

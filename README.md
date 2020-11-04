@@ -17,7 +17,7 @@ Build Khaiii
     make all
     make resource
 
-Test Khaiii is perfectly installed
+Test Khaiii
     
     ctest
 
@@ -48,12 +48,8 @@ Extract averaged_perceptron_tagger.zip and move it to:
     
 ## Implementation
 
-    python main.py [file name]
+    python main.py [module] [file name]
     
 example
     
-    python main.py ko-en_sentences.txt 
-    
-    
-    
-### Gensim Installation Error
+    python main.py process ko-en_sentences.txt

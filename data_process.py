@@ -20,7 +20,7 @@ def process_data_file(file_name, lang1, lang2):
     processed_file = "%s-%s.txt" % (lang1, lang2)
 
     i = 0
-    with open(processed_file, "w") as f:
+    with open(processed_file, "a") as f:
         with open(file_name, "r") as f_raw:
             while True:
                 sentence = f_raw.readline()
