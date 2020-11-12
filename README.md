@@ -5,24 +5,20 @@ Set up virtual environment
 
 ## Install Requirements
 
-    python main.py download [params]
+    python main.py download [param]
     
-#### download all requirements
+All requirements :
+
     python main.py download all
     
-#### download only khaiii
+Khaiii :
+
     python main.py download khaiii
     
+Nltk data :
 
-### nltk
-Download nltk 'punkt': http://www.nltk.org/nltk_data/ <br>
-Extract punkt.zip and move it to:
+    python main.py download nltk_data
     
-    /usr/local/share/nltk_data/tokenizers
-Download nltk 'averaged_perceptron_tagger': http://www.nltk.org/nltk_data/ <br>
-Extract averaged_perceptron_tagger.zip and move it to:
-    
-    /usr/local/share/nltk_data/taggers
     
 ## Implementation
 
