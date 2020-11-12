@@ -1,40 +1,18 @@
 # Bi-Sent2Vec_ko-en
-## Setting
+### Setting
 Set up virtual environment
 
-    pip install -r requirements.txt
 
-### Khaiii
-Download khaiii
+## Install Requirements
 
-    git clone https://github.com/kakao/khaiii.git
+    python main.py download [params]
     
-Build Khaiii
-
-    mkdir khaiii/build && cd khaiii/build
-    cmake ..
+#### download all requirements
+    python main.py download all
     
-    make all
-    make resource
-
-Test Khaiii
+#### download only khaiii
+    python main.py download khaiii
     
-    ctest
-
-The result should be like below
-
-        Start 1: test_khaiii
-    1/1 Test #1: test_khaiii ......................   Passed    0.10 sec
-    
-    100% tests passed, 0 tests failed out of 1
-    
-Python binding
-    
-    make install
-    make package_python
-    
-    cd package_python
-    pip install .
 
 ### nltk
 Download nltk 'punkt': http://www.nltk.org/nltk_data/ <br>

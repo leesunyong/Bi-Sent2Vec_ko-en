@@ -1,8 +1,10 @@
 import os
 
 
-def download():
-    _package_download()
+def download(args):
+
+    if args == 'all':
+        _package_download()
 
     if not os.path.isdir('./khaiii'):
         _khaiii_download()
